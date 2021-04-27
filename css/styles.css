@@ -194,6 +194,28 @@ body {
   cursor: pointer;
   border: none;
 }
+.button-close-imput {
+  position: relative;
+}
+.button-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-white-color);
+}
+.button-close-svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--primary-black-color);
+}
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -228,7 +250,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .backdrop.is-hidden {
-  opacity: 0.5;
+  opacity: 1;
   pointer-events: none;
 }
 .modal {
