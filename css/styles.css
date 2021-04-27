@@ -621,7 +621,9 @@ body {
   display: none;
 }
 .portfolio-item:hover .portfolio-about-discription {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .portfolio-about-text {
   width: 322px;
