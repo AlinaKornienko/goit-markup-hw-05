@@ -585,6 +585,7 @@ body {
 .cards-link {
 }
 .cards-img {
+  display: flex;
 }
 .portfolio-item {
   position: relative;
@@ -604,7 +605,7 @@ body {
   margin-bottom: 0;
 }
 .box {
-  /* display: block; */
+  display: block;
   border-bottom: 1px solid rgba(238, 238, 238, 1);
   border-left: 1px solid rgba(238, 238, 238, 1);
   border-right: 1px solid rgba(238, 238, 238, 1);
