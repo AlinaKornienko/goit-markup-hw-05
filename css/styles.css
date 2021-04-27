@@ -212,8 +212,8 @@ body {
   background-color: var(--primary-white-color);
 }
 .button-close-svg {
-  width: 18px;
-  height: 18px;
+  /* width: 18px;
+  height: 18px; */
   fill: var(--primary-black-color);
 }
 .button.primary {
