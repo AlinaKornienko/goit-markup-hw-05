@@ -225,9 +225,8 @@ body {
   background-color: var(--primary-white-color);
 }
 .button-close-svg {
-  /* width: 18px;
-  height: 18px; */
   fill: var(--primary-black-color);
+  cursor: pointer;
 }
 .button.primary {
   color: var(--primary-white-color);
@@ -666,7 +665,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .backdrop.is-hidden {
-  opacity: 0.5;
+  opacity: 0;
   pointer-events: none;
 }
 .modal {
