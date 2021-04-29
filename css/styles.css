@@ -329,6 +329,7 @@ body {
   width: 370px;
 }
 .employments-item {
+  display: flex;
   position: relative;
 }
 .employments-about {
