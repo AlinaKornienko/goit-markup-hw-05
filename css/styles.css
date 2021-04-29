@@ -597,6 +597,7 @@ body {
 .cards-img {
   display: flex;
 }
+
 .portfolio-item {
   position: relative;
   width: 370px;
